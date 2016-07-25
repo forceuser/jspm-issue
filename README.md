@@ -1,0 +1,1 @@
+##JSPM relative path resolving test

@@ -1,0 +1,1 @@
+export default 'MODULE1-TEST-STRING';

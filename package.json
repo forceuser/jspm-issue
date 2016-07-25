@@ -1,0 +1,31 @@
+{
+  "name": "jspm-issue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "none",
+  "main": "index.js",
+  "browser": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "jspm install"
+  },
+  "keywords": [
+    "jspm"
+  ],
+  "author": "forceuser",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.22"
+  },
+  "jspm": {
+    "name": "jspm-issue",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12"
+    }
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
